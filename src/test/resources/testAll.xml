@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="10" preserve-order="true"
+          name="search">
+        <classes>
+            <class name="tests.searchappartaments.SearchApartTest"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true"
+          name="sout">
+        <classes>
+            <class name="tests.searchappartaments.TestSOUT"></class>
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,5 @@
+tests\basetest\CustomListener.class
+tests\searchappartaments\DataProviderClass.class
+tests\searchappartaments\TestSOUT.class
+tests\searchappartaments\SearchApartTest.class
+tests\basetest\BaseTest.class

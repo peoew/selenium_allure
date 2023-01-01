@@ -1,0 +1,9 @@
+framework\pages\base\BasePage.class
+framework\common\Config.class
+framework\common\CommonAction.class
+exaples\Test.class
+exaples\TestVvodTextaFailov.class
+framework\pages\listing\RealtListingPage.class
+framework\pages\realthome\RealtHomePage.class
+exaples\TestOsobennostiPoluchenuyaTexta.class
+exaples\TestSvoystvaElementov.class
