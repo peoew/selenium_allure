@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" ignored="1" total="14" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="185759" started-at="2023-01-01T21:07:05Z" finished-at="2023-01-01T21:10:10Z">
+  <suite name="Surefire suite" duration-ms="211" started-at="2023-01-02T13:43:41Z" finished-at="2023-01-02T13:43:41Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="185759" started-at="2023-01-01T21:07:05Z" finished-at="2023-01-01T21:10:10Z">
+    <test name="Surefire test" duration-ms="211" started-at="2023-01-02T13:43:41Z" finished-at="2023-01-02T13:43:41Z">
       <class name="tests.basetest.BaseTest">
-        <test-method status="PASS" signature="quite()[pri:0, instance:tests.basetest.BaseTest@21d03963]" name="quite" is-config="true" duration-ms="663" started-at="2023-01-02T00:10:10Z" finished-at="2023-01-02T00:10:11Z">
+        <test-method status="PASS" signature="quite()[pri:0, instance:tests.basetest.BaseTest@21d03963]" name="quite" is-config="true" duration-ms="595" started-at="2023-01-02T16:43:41Z" finished-at="2023-01-02T16:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quite -->
       </class> <!-- tests.basetest.BaseTest -->
       <class name="tests.searchappartaments.TestSOUT">
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="3" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="2" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="2" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="2" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -109,7 +109,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -173,7 +173,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="2" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="2" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoutConsole -->
-        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="2" started-at="2023-01-02T00:10:10Z" data-provider="dataProviderMethod" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="testSoutConsole(java.lang.String, java.lang.String)[pri:0, instance:tests.searchappartaments.TestSOUT@536dbea0]" name="testSoutConsole" duration-ms="1" started-at="2023-01-02T16:43:41Z" data-provider="dataProviderMethod" finished-at="2023-01-02T16:43:41Z">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,7 @@
         </test-method> <!-- testSoutConsole -->
       </class> <!-- tests.searchappartaments.TestSOUT -->
       <class name="tests.searchappartaments.SearchApartTest">
-        <test-method status="PASS" signature="checkIsRedirectToListing()[pri:0, instance:tests.searchappartaments.SearchApartTest@3f1d2e23]" name="checkIsRedirectToListing" duration-ms="185590" started-at="2023-01-02T00:07:05Z" finished-at="2023-01-02T00:10:10Z">
+        <test-method status="PASS" signature="checkIsRedirectToListing()[pri:0, instance:tests.searchappartaments.SearchApartTest@3f1d2e23]" name="checkIsRedirectToListing" duration-ms="70" started-at="2023-01-02T16:43:41Z" finished-at="2023-01-02T16:43:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIsRedirectToListing -->
