@@ -12,7 +12,7 @@ public class SearchApartTest extends BaseTest {
     //сам тест
     @Test
     public void checkIsRedirectToListing() {
-        System.out.println("заглушка");
+
         //открываем страничку
         basePage.open("https://realt.by");
 

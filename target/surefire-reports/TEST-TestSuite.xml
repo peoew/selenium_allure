@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.496" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.985" tests="13" errors="0" skipped="0" failures="1">
   <properties>
+    <property name="idea.version" value="2022.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\bin"/>
     <property name="java.vm.version" value="25.302-b08"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gs_va\OneDrive\Рабочий стол\ОБУЧЕНИЕ ТЕСТИРОВЩИК\selenium_allure_testng_jenkins"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\gs_va\OneDrive\Рабочий стол\ОБУЧЕНИЕ ТЕСТИРОВЩИК\java_tests\selenium_allure_testng_jenkins"/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\gs_va\OneDrive\Рабочий стол\ОБУЧЕНИЕ ТЕСТИРОВЩИК\selenium_allure_testng_jenkins"/>
+    <property name="user.dir" value="C:\Users\gs_va\OneDrive\Рабочий стол\ОБУЧЕНИЕ ТЕСТИРОВЩИК\java_tests\selenium_allure_testng_jenkins"/>
     <property name="java.runtime.version" value="1.8.0_302-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\endorsed"/>
@@ -26,26 +27,27 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="E:\IntelliJ IDEA 2021.2.1\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\maven\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Users\gs_va\.jdks\corretto-1.8.0_302\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\gs_va\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\gs_va\AppData\Local\Programs\Python\Python310\;C:\Users\gs_va\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\gs_va\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gs_va\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\IntelliJ IDEA 2021.2.1\bin;E:\IntelliJ IDEA Community Edition 2021.1.3\bin;E:\Fiddler;C:\maven\bin;C:\Users\gs_va\.jdks\corretto-1.8.0_302\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\gs_va\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Users\gs_va\.jdks\corretto-1.8.0_302\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\gs_va\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\gs_va\AppData\Local\Programs\Python\Python310\;C:\Users\gs_va\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\gs_va\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gs_va\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\IntelliJ IDEA 2021.2.1\bin;E:\IntelliJ IDEA Community Edition 2021.1.3\bin;E:\Fiddler;C:\maven\bin;C:\Users\gs_va\.jdks\corretto-1.8.0_302\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\gs_va\AppData\Roaming\npm;;."/>
+    <property name="jansi.passthrough" value="true"/>
     <property name="maven.conf" value="C:\maven/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\maven\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\gs_va"/>
     <property name="user.timezone" value="Europe/Moscow"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1251"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="gs_va"/>
-    <property name="java.class.path" value="C:\maven\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="C:\maven\boot\plexus-classworlds-2.6.0.jar;C:\maven\boot\plexus-classworlds.license;E:\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3 org.apache.maven.plugins:maven-surefire-plugin:2.20:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,28 +55,52 @@
     <property name="java.version" value="1.8.0_302"/>
     <property name="java.ext.dirs" value="C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\resources.jar;C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\rt.jar;C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\sunrsasign.jar;C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar;C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\jce.jar;C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar;C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar;C:\Users\gs_va\.jdks\corretto-1.8.0_302\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp866"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="maven.home" value="C:\maven"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="checkIsRedirectToListing" classname="tests.searchappartaments.SearchApartTest" time="0.077"/>
+  <testcase name="checkIsRedirectToListing" classname="tests.searchappartaments.SearchApartTest" time="2.049">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=108.0.5359.125)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-25K6MM8&apos;, ip: &apos;10.0.125.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_302&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\gs_va\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:2101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eaaff9e9f2f0fcb77b2a0f48075ef71a" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-25K6MM8', ip: '10.0.125.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\gs_va\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:2101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eaaff9e9f2f0fcb77b2a0f48075ef71a
+	at tests.searchappartaments.SearchApartTest.checkIsRedirectToListing(SearchApartTest.java:20)
+</failure>
+    <system-out><![CDATA[checkIsRedirectToListing START
+заглушка
+checkIsRedirectToListing FAIL
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 23667
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв 02, 2023 11:55:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.003"/>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
-  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
-  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
-  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
+  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.002"/>
+  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.002"/>
+  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.002"/>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.002"/>
   <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
-  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0.001"/>
+  <testcase name="testSoutConsole" classname="tests.searchappartaments.TestSOUT" time="0"/>
 </testsuite>
